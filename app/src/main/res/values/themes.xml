@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Pakis" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main_blue</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/main_grey</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/HelveticaTextViewStyle.</item>
+        <item name="android:editTextStyle">@style/HelveticaTextViewStyle.</item>
+        <item name="buttonStyle">@style/HelveticaButtonStyle.</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.Pakis">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="splash" parent="Theme.Pakis">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/main_blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="HelveticaTextViewStyle." parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/helvetica_neue_medium</item>
+    </style>
+
+    <style name="HelveticaButtonStyle." parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Theme.Pakis.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

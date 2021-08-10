@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_grey"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:paddingHorizontal="20dp">
+
+    <RelativeLayout
+        android:id="@+id/tv_tentang_kami"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_stroke_bottom"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/header">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:drawablePadding="10dp"
+            android:text="@string/tentang_kami"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:drawableEndCompat="@drawable/ic_arrow_forward" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tv_akun"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_stroke_bottom"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/ubahProfil">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:drawablePadding="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/pengaturan_akun"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:drawableEndCompat="@drawable/ic_arrow_forward" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tv_profile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_stroke_bottom"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/ubahPassword">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:drawablePadding="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/Profile"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:drawableEndCompat="@drawable/ic_arrow_forward" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tv_keluar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_stroke_bottom"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/ubahPassword">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:drawablePadding="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/keluar"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:drawableEndCompat="@drawable/ic_arrow_forward" />
+    </RelativeLayout>
+</LinearLayout>
